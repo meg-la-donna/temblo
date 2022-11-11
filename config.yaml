@@ -1,0 +1,80 @@
+baseURL: "http://example.org/"
+languageCode: "en-us"
+title: "Tembly"
+theme: "PaperMod"
+
+# make false when building fo shizzle
+buildDrafts: true
+
+menu:
+  main:
+    - identifier: about
+      name: About
+      url: /posts/about/
+      weight: 10
+    - identifier: contact
+      name: Contact
+      url: /posts/contact/
+      weight: 20
+    - identifier: tags
+      name: tags
+      url: /tags/
+      weight: 30
+    
+    # THIS IS A CHANGE
+
+ShowReadingTime: true
+ShowShareButtons: true
+ShowPostNavLinks: true
+ShowBreadCrumbs: false
+ShowCodeCopyButtons: false
+ShowWordCount: false
+
+params:
+    homeInfoParams:
+          Title: Hi there wave
+          Content: Hi there
+
+    socialIcons: # optional
+        - name: "<platform>"
+          url: "<link>"
+        - name: "<platform 2>"
+          url: "<link2>"
+
+params:
+    profileMode:
+        enabled: false
+        title: "Tembly"
+        subtitle: "Know thyself"
+        imageUrl: "img/lightbulb.png"
+        imageTitle: "Lightbulb"
+        imageWidth: 300
+        imageHeight: auto
+        buttons:
+            - name: Archive
+              url: "/archive"
+            - name: Github
+              url: "https://github.com/"
+
+    socialIcons: # optional
+        - name: "Instagram"
+          url: "<link>"
+        - name: "Twitter"
+          url: "<link2>"
+        - name: "Facebook"
+          url: "<link2>"
+
+#outputs:
+  #home:
+  #  - HTML
+  #  - RSS
+  #  - JSON # is necessary
+#params:
+  #fuseOpts:
+   # isCaseSensitive: false
+   # shouldSort: true
+   # location: 0
+   # distance: 1000
+   # threshold: 0.4
+   # minMatchCharLength: 0
+   # keys: ["title", "permalink", "summary", "content"]
