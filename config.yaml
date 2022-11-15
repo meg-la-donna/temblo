@@ -20,8 +20,6 @@ menu:
       name: tags
       url: /tags/
       weight: 30
-    
-    # THIS IS A CHANGE
 
 ShowReadingTime: true
 ShowShareButtons: true
@@ -32,8 +30,8 @@ ShowWordCount: false
 
 params:
     homeInfoParams:
-          Title: Hi there wave
-          Content: Hi there
+          Title: Welcome to Tembly
+          Content: 'To know thyself is the beginning of all wisdom. Can I type more here or is that a no-no?'
 
     socialIcons: # optional
         - name: "<platform>"
@@ -41,28 +39,20 @@ params:
         - name: "<platform 2>"
           url: "<link2>"
 
-params:
-    profileMode:
-        enabled: false
-        title: "Tembly"
-        subtitle: "Know thyself"
-        imageUrl: "img/lightbulb.png"
-        imageTitle: "Lightbulb"
-        imageWidth: 300
-        imageHeight: auto
-        buttons:
-            - name: Archive
-              url: "/archive"
-            - name: Github
-              url: "https://github.com/"
-
-    socialIcons: # optional
-        - name: "Instagram"
-          url: "<link>"
-        - name: "Twitter"
-          url: "<link2>"
-        - name: "Facebook"
-          url: "<link2>"
+# params:
+   # profileMode:
+        #enabled: false
+        #title: "Tembly"
+        #subtitle: "Know thyself"
+        #imageUrl: "img/lightbulb.png"
+        #imageTitle: "Lightbulb"
+        #imageWidth: 300
+        #imageHeight: auto
+       # buttons:
+          #  - name: Archive
+          #    url: "/archive"
+          #  - name: Github
+          #    url: "https://github.com/"
 
 #outputs:
   #home:
